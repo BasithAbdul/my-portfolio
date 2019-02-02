@@ -43,12 +43,16 @@ a:visited{
 nav{
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-between;
 	position: fixed;
 	top: 0;
 	padding: 10px 40px 0px 10px;
 	background-color: rgba(0, 0, 0, 0.9);
 	z-index: 1000;
+}
+nav img{
+	height: 40px;
+	margin-left: 40px;
 }
 .nav-links{
 	font-size: 1em;
@@ -318,6 +322,14 @@ footer{
 	.about-wrap{
 	flex-direction: column;
 }
+}
+
+@media screen and (max-width: 600px)
+{
+	nav{
+		font-size: 0.8em;	
+	}
+	
 }
 
 
