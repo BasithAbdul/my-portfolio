@@ -40,10 +40,6 @@ a:visited{
 	justify-content: center;
 	align-items: center;
 }
-.intro-button{
-	margin-top: 30px;
-	z-index: 1000;
-}
 nav{
 	display: flex;
 	flex-direction: row;
@@ -73,21 +69,23 @@ nav{
 	color: gray;
 	font-family: cursive;
 }
+#particles-js{
+    height: 100vh;
+    background-color: black;
+}
 .intro-head{
 	font-size: 2em;
 }
 .intro-button{
 	padding: 10px 30px;
-	font-size: 1.2em;	
+	font-size: 1.2em;
+	margin-top: 30px;
+	z-index: 1000;
 }
 .intro-button:hover{
 	border-color: #4C59A7;
 	background-color: #4C59A7;
 	color: white;
-}
-#particles-js{
-    height: 100vh;
-    background-color: black;
 }
 nav{
 	background-color: black;
